@@ -1,2 +1,2 @@
 # sgt-peppas-pizzas
-build a Static Website Page project
+build a Static One-Page Website project
