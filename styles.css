@@ -14,8 +14,7 @@
 body {
     width: 100%;
     margin: 0 auto;
-    font-family: var(--primaryfont);
-
+    font-family: var(--primaryfont), sans-serif;
 }
 
 ul {
@@ -30,17 +29,30 @@ li {
 }
 a {
     text-decoration: none;
-    color: var(--color2);
+    color: var(--color3);
 }
-
+a:hover {
+    font-weight: bold;
+    color: var(--color5);
+}
 .navbar {
     background-color: var(--color3b);
-    opacity: .5;
+    opacity: .75;
     position: fixed;
     width: 100%;
-    
+    font-size: 1.25rem;
 }
+.navbar:hover {
+    opacity: 1;
+}
+.hero-welcome {
+    background-color: aliceblue;
+    padding: 10px;
+    position: absolute;
+    top: 40vw;
+    left: 50vw;
 
+}
 .hero {
     background-image: url(Pizza_with_tomatoes-full-size.jpg);
     width: 100%;
