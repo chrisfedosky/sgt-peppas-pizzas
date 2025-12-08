@@ -46,7 +46,7 @@ a:hover {
     opacity: 1;
 }
 .hero-welcome {
-    background-color: aliceblue;
+    background-color: var(--color4);
     padding: 10px;
     position: absolute;
     top: 40vw;
